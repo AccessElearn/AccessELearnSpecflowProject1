@@ -96,6 +96,7 @@ namespace AccessELearnSpecflowProject.Utility
             htmlreport.Config.ReportName = "Regression Testing";
         }
 
+        //This sis a method for taking screenhot
         public string GetScreenshot()
         {
             return ((ITakesScreenshot)driver).GetScreenshot().AsBase64EncodedString;
